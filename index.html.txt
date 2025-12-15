@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Провери, кое животно си</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="card">
+        <header class="header">
+          <div class="badge">🐾 мини тест</div>
+          <h1>Провери, кое животно си</h1>
+          <p class="sub">Едно натискане. Един резултат. Абсолютна истина.</p>
+        </header>
+
+        <button id="checkBtn" class="btn" type="button">
+          Провери, кое животно си
+        </button>
+
+        <section id="result" class="result" aria-live="polite" hidden>
+          <div class="imgWrap">
+            <img
+              id="animalImg"
+              src="assets/kukumqvka.jpg"
+              alt="Кукумявка"
+              loading="lazy"
+            />
+          </div>
+          <p class="answer">Ти си <span>кукумявка</span>.</p>
+        </section>
+
+        <footer class="footer">
+          <span>©</span> made for GitHub Pages
+        </footer>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
